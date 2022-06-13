@@ -1,0 +1,56 @@
+body{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.dark-purple { 
+    grid-area: header;
+    background-color: #AB46D2;
+
+}
+
+
+.light-purple{
+    grid-area: menu;
+    background-color: #FF6FB5;
+}
+    
+  
+
+
+
+.green{
+    grid-area: main;
+    background-color: #809A6F;
+   }
+    
+    
+
+
+.yellow{
+        background-color: #EFD345;
+        grid-area: right; 
+
+}
+
+
+.brown{
+    background-color: #ECB390;
+    grid-area: footer;
+ }
+
+
+
+.grid-container {
+
+  display: grid;
+  grid-template-areas: 
+    'header header header header main main'
+    'menu menu menu right right right'
+    'menu menu menu footer footer footer';
+  gap: 10px;
+  background-color: #15133C;
+  padding: 50px 120px 50px 50px;
+  width: 600px;
+  height: 400px;
+}
